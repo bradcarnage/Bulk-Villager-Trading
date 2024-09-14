@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "computer.brads.bulktrade.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "mixins.bulktrade.refmap.json",
+  "mixins": [
+  ],
+  "client":[
+    "MerchantScreenMixin",
+    "MerchantMenuMixin",
+    "AbstractContainerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
